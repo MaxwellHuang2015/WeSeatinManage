@@ -1,0 +1,5415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>WeSeat座位情况图</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_9">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget_4th_Floor" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_9">
+       <item>
+        <widget class="QLabel" name="label_16">
+         <property name="styleSheet">
+          <string notr="true">font: 28pt &quot;华文新魏&quot;;
+color: rgb(255, 85, 0);</string>
+         </property>
+         <property name="text">
+          <string>四楼</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QScrollArea" name="scrollArea_6">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents_6">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>1147</width>
+            <height>364</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_6">
+           <item row="1" column="0">
+            <widget class="QLabel" name="labelSeat_F4_2">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>2</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="8">
+            <widget class="QLabel" name="labelSeat_F4_28">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>28</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="23">
+            <widget class="QLabel" name="labelSeat_F4_49">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>49</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="9">
+            <widget class="QLabel" name="labelSeat_F4_29">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>29</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="8">
+            <widget class="QLabel" name="labelSeat_F4_27">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>27</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="20">
+            <widget class="QLabel" name="labelSeat_F4_42">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>42</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="22">
+            <widget class="QLabel" name="labelSeat_F4_45">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>45</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="23">
+            <widget class="QLabel" name="labelSeat_F4_48">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>48</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="7">
+            <widget class="QLabel" name="labelSeat_F4_25">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>25</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="labelSeat_F4_4">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>4</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="labelSeat_F4_5">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>5</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLabel" name="labelSeat_F4_gap1">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QLabel" name="labelSeat_F4_9">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>9</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="4">
+            <widget class="QLabel" name="labelSeat_F4_12">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>12</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="6">
+            <widget class="QLabel" name="labelSeat_F4_15">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>15</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="7">
+            <widget class="QLabel" name="labelSeat_F4_22">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>22</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="14" rowspan="6" colspan="3">
+            <widget class="QLabel" name="labelSeat_F4_coach">
+             <property name="minimumSize">
+              <size>
+               <width>120</width>
+               <height>138</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/coach.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="10">
+            <widget class="QLabel" name="labelSeat_F4_36">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>36</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0" rowspan="3" colspan="4">
+            <widget class="QLabel" name="labelSeat_F4_books2">
+             <property name="minimumSize">
+              <size>
+               <width>120</width>
+               <height>46</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/books.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="1" rowspan="3" colspan="5">
+            <widget class="QLabel" name="labelSeat_F4_WC">
+             <property name="minimumSize">
+              <size>
+               <width>150</width>
+               <height>69</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/WC.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="12" rowspan="3" colspan="7">
+            <widget class="QLabel" name="labelSeat_F4_door">
+             <property name="minimumSize">
+              <size>
+               <width>240</width>
+               <height>69</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/door.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="6" rowspan="3" colspan="5">
+            <widget class="QLabel" name="labelSeat_F4_com">
+             <property name="minimumSize">
+              <size>
+               <width>150</width>
+               <height>69</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/computer.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="21">
+            <widget class="QLabel" name="labelSeat_F4_gap2">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="labelSeat_F4_1">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>1</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="labelSeat_F4_3">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>3</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="19">
+            <widget class="QLabel" name="labelSeat_F4_39">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>39</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="8" rowspan="2" colspan="3">
+            <widget class="QLabel" name="labelSeat_F4_stairs">
+             <property name="minimumSize">
+              <size>
+               <width>90</width>
+               <height>46</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/stairsdown.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="19" rowspan="3" colspan="5">
+            <widget class="QLabel" name="labelSeat_F4_books1">
+             <property name="minimumSize">
+              <size>
+               <width>150</width>
+               <height>46</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/books.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="5">
+            <widget class="QLabel" name="labelSeat_F4_20">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>20</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLabel" name="labelSeat_F4_6">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>6</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLabel" name="labelSeat_F4_7">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>7</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLabel" name="labelSeat_F4_8">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>8</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QLabel" name="labelSeat_F4_10">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>10</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="4">
+            <widget class="QLabel" name="labelSeat_F4_13">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>13</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="3">
+            <widget class="QLabel" name="labelSeat_F4_11">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>11</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="4">
+            <widget class="QLabel" name="labelSeat_F4_14">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>14</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="6">
+            <widget class="QLabel" name="labelSeat_F4_16">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>16</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="6">
+            <widget class="QLabel" name="labelSeat_F4_17">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>17</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="7">
+            <widget class="QLabel" name="labelSeat_F4_24">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>24</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="7">
+            <widget class="QLabel" name="labelSeat_F4_23">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>23</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="9">
+            <widget class="QLabel" name="labelSeat_F4_30">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>30</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="9">
+            <widget class="QLabel" name="labelSeat_F4_31">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>31</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="10">
+            <widget class="QLabel" name="labelSeat_F4_34">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>34</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="10">
+            <widget class="QLabel" name="labelSeat_F4_33">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>33</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="4">
+            <widget class="QLabel" name="labelSeat_F4_18">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>18</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="5">
+            <widget class="QLabel" name="labelSeat_F4_21">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>21</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="4">
+            <widget class="QLabel" name="labelSeat_F4_19">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>19</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="7">
+            <widget class="QLabel" name="labelSeat_F4_26">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>26</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="19">
+            <widget class="QLabel" name="labelSeat_F4_41">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>41</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="20">
+            <widget class="QLabel" name="labelSeat_F4_60">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>60</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="10">
+            <widget class="QLabel" name="labelSeat_F4_35">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>35</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="11">
+            <widget class="QLabel" name="labelSeat_F4_37">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>37</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="11">
+            <widget class="QLabel" name="labelSeat_F4_38">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>38</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="22">
+            <widget class="QLabel" name="labelSeat_F4_61">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>61</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="22">
+            <widget class="QLabel" name="labelSeat_F4_62">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>62</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="23">
+            <widget class="QLabel" name="labelSeat_F4_65">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>65</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="23">
+            <widget class="QLabel" name="labelSeat_F4_66">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>66</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="22">
+            <widget class="QLabel" name="labelSeat_F4_63">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>63</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="22">
+            <widget class="QLabel" name="labelSeat_F4_64">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>64</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="23">
+            <widget class="QLabel" name="labelSeat_F4_67">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>67</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="19">
+            <widget class="QLabel" name="labelSeat_F4_55">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>55</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="19">
+            <widget class="QLabel" name="labelSeat_F4_54">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>54</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="20">
+            <widget class="QLabel" name="labelSeat_F4_59">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>59</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="20">
+            <widget class="QLabel" name="labelSeat_F4_58">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>58</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="19">
+            <widget class="QLabel" name="labelSeat_F4_53">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>53</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="19">
+            <widget class="QLabel" name="labelSeat_F4_52">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>52</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="20">
+            <widget class="QLabel" name="labelSeat_F4_57">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>57</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="20">
+            <widget class="QLabel" name="labelSeat_F4_56">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>56</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="19">
+            <widget class="QLabel" name="labelSeat_F4_51">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>51</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="22">
+            <widget class="QLabel" name="labelSeat_F4_46">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>46</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="23">
+            <widget class="QLabel" name="labelSeat_F4_50">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>50</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="22">
+            <widget class="QLabel" name="labelSeat_F4_47">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>47</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="20">
+            <widget class="QLabel" name="labelSeat_F4_43">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>43</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="19">
+            <widget class="QLabel" name="labelSeat_F4_40">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>40</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="20">
+            <widget class="QLabel" name="labelSeat_F4_44">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>44</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="18">
+            <widget class="QLabel" name="labelSeat_F4_gap5">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="10">
+            <widget class="QLabel" name="labelSeat_F4_32">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>32</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="12" rowspan="4" colspan="7">
+            <widget class="QLabel" name="labelSeat_F4_service">
+             <property name="minimumSize">
+              <size>
+               <width>240</width>
+               <height>46</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/service.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="3">
+     <widget class="QWidget" name="widget_Sun_Room" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_11">
+         <property name="styleSheet">
+          <string notr="true">font: 28pt &quot;华文新魏&quot;;
+color: rgb(255, 85, 0);</string>
+         </property>
+         <property name="text">
+          <string>阳光房</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QScrollArea" name="scrollArea">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>372</width>
+            <height>362</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="5" column="5">
+            <widget class="QLabel" name="labelSeat_Sun_19">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>19</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="8">
+            <widget class="QLabel" name="labelSeat_Sun_28">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>28</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QLabel" name="labelSeat_Sun_2">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>2</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="5">
+            <widget class="QLabel" name="labelSeat_Sun_12">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>12</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="4">
+            <widget class="QLabel" name="labelSeat_Sun_17">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>17</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QLabel" name="labelSeat_Sun_6">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>6</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="5">
+            <widget class="QLabel" name="labelSeat_Sun_16">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>16</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="8">
+            <widget class="QLabel" name="labelSeat_Sun_24">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>24</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="5">
+            <widget class="QLabel" name="labelSeat_Sun_15">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>15</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="8">
+            <widget class="QLabel" name="labelSeat_Sun_31">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>31</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="7">
+            <widget class="QLabel" name="labelSeat_Sun_22">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>22</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="7">
+            <widget class="QLabel" name="labelSeat_Sun_26">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>26</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="7">
+            <widget class="QLabel" name="labelSeat_Sun_21">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>21</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="8">
+            <widget class="QLabel" name="labelSeat_Sun_27">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>27</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="7">
+            <widget class="QLabel" name="labelSeat_Sun_25">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>25</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="2">
+            <widget class="QLabel" name="labelSeat_Sun_4">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>4</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="3" rowspan="9">
+            <widget class="QLabel" name="labelSeat_Sun_gap2">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>207</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="8">
+            <widget class="QLabel" name="labelSeat_Sun_32">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>32</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="5">
+            <widget class="QLabel" name="labelSeat_Sun_20">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>20</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="2">
+            <widget class="QLabel" name="labelSeat_Sun_3">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>3</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="4">
+            <widget class="QLabel" name="labelSeat_Sun_14">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>14</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="7">
+            <widget class="QLabel" name="labelSeat_Sun_29">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>29</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="4">
+            <widget class="QLabel" name="labelSeat_Sun_18">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>18</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0" rowspan="9">
+            <widget class="QLabel" name="labelSeat_Sun_gap1">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>207</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="4">
+            <widget class="QLabel" name="labelSeat_Sun_10">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>10</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QLabel" name="labelSeat_Sun_5">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>5</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="4">
+            <widget class="QLabel" name="labelSeat_Sun_13">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>13</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="1">
+            <widget class="QLabel" name="labelSeat_Sun_1">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>1</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="7">
+            <widget class="QLabel" name="labelSeat_Sun_30">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>30</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="2">
+            <widget class="QLabel" name="labelSeat_Sun_8">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>8</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="8">
+            <widget class="QLabel" name="labelSeat_Sun_23">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>23</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="9" rowspan="9">
+            <widget class="QLabel" name="labelSeat_Sun_gap4">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>207</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="4">
+            <widget class="QLabel" name="labelSeat_Sun_9">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>9</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="2">
+            <widget class="QLabel" name="labelSeat_Sun_7">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>7</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="5">
+            <widget class="QLabel" name="labelSeat_Sun_11">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>11</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="6" rowspan="9">
+            <widget class="QLabel" name="labelSeat_Sun_gap3">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>207</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0" rowspan="2" colspan="10">
+            <widget class="QLabel" name="labelSeat_Sun_gap5">
+             <property name="minimumSize">
+              <size>
+               <width>300</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 28pt &quot;微软雅黑&quot;;
+color: rgb(255, 85, 0);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="1" colspan="2">
+            <widget class="QLabel" name="labelSeat_Sun_gap6">
+             <property name="minimumSize">
+              <size>
+               <width>60</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QWidget" name="widget_Refresh" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_8">
+       <item>
+        <widget class="QWidget" name="buttonWidget" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QPushButton" name="buttonRefresh">
+            <property name="styleSheet">
+             <string notr="true">font: 14pt</string>
+            </property>
+            <property name="text">
+             <string>手动刷新</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_3" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayoutForTimeWidget">
+            <item>
+             <widget class="QLabel" name="labelRefreshTime">
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;自动刷新&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="textFormat">
+               <enum>Qt::AutoText</enum>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="comboBoxRefreshTime">
+              <property name="acceptDrops">
+               <bool>false</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 14pt</string>
+              </property>
+              <property name="currentText">
+               <string>5秒</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>5秒</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10秒</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>30秒</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>60秒</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5分钟</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10分钟</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>仅手动</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="3" rowspan="2">
+     <widget class="QWidget" name="widget_Example" native="true">
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="seatmap.qrc">:/map/resources/occupied.png</pixmap>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;暂离&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;禁用&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="seatmap.qrc">:/map/resources/saved.png</pixmap>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="seatmap.qrc">:/map/resources/banned.png</pixmap>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;有人&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="seatmap.qrc">:/map/resources/available.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;有约&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="seatmap.qrc">:/map/resources/appointed.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;空闲&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0" rowspan="3">
+     <widget class="QWidget" name="widget_3rd_Floor" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_10">
+       <item>
+        <widget class="QLabel" name="label_17">
+         <property name="styleSheet">
+          <string notr="true">font: 28pt &quot;华文新魏&quot;;
+color: rgb(255, 85, 0);</string>
+         </property>
+         <property name="text">
+          <string>三楼</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QScrollArea" name="scrollArea_7">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents_7">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>1164</width>
+            <height>386</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_8">
+           <item row="0" column="14">
+            <widget class="QLabel" name="labelSeat_F3_30">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>30</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="14">
+            <widget class="QLabel" name="labelSeat_F3_31">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>31</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="10">
+            <widget class="QLabel" name="labelSeat_F3_26">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>26</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="6">
+            <widget class="QLabel" name="labelSeat_F3_14">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>14</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="12">
+            <widget class="QLabel" name="labelSeat_F3_28">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>28</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="16">
+            <widget class="QLabel" name="labelSeat_F3_33">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>33</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="16">
+            <widget class="QLabel" name="labelSeat_F3_34">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>34</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="18">
+            <widget class="QLabel" name="labelSeat_F3_36">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>36</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="13">
+            <widget class="QLabel" name="labelSeat_F3_gap5">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="18">
+            <widget class="QLabel" name="labelSeat_F3_37">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>37</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="23">
+            <widget class="QLabel" name="labelSeat_F3_43">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>43</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="18">
+            <widget class="QLabel" name="labelSeat_F3_55">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>55</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="23">
+            <widget class="QLabel" name="labelSeat_F3_44">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>44</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="21">
+            <widget class="QLabel" name="labelSeat_F3_42">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>42</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="20">
+            <widget class="QLabel" name="labelSeat_F3_40">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>40</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="17">
+            <widget class="QLabel" name="labelSeat_F3_gap7">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="10">
+            <widget class="QLabel" name="labelSeat_F3_23">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>23</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="21">
+            <widget class="QLabel" name="labelSeat_F3_41">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>41</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="13">
+            <widget class="QLabel" name="labelSeat_F3_60">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>60</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="23">
+            <widget class="QLabel" name="labelSeat_F3_49">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>49</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="10">
+            <widget class="QLabel" name="labelSeat_F3_gap8">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="3">
+            <widget class="QLabel" name="labelSeat_F3_7">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>7</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="4">
+            <widget class="QLabel" name="labelSeat_F3_10">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>10</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="6">
+            <widget class="QLabel" name="labelSeat_F3_12">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>12</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="6">
+            <widget class="QLabel" name="labelSeat_F3_13">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>13</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="7">
+            <widget class="QLabel" name="labelSeat_F3_17">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>17</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="7">
+            <widget class="QLabel" name="labelSeat_F3_16">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>16</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="9">
+            <widget class="QLabel" name="labelSeat_F3_20">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>20</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="9">
+            <widget class="QLabel" name="labelSeat_F3_21">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>21</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="10">
+            <widget class="QLabel" name="labelSeat_F3_25">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>25</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="10">
+            <widget class="QLabel" name="labelSeat_F3_24">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>24</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="11">
+            <widget class="QLabel" name="labelSeat_F3_gap9">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="12" rowspan="2" colspan="8">
+            <widget class="QLabel" name="labelSeat_F3_door">
+             <property name="minimumSize">
+              <size>
+               <width>20</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="14">
+            <widget class="QLabel" name="labelSeat_F3_59">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>59</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="12">
+            <widget class="QLabel" name="labelSeat_F3_29">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>29</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="14">
+            <widget class="QLabel" name="labelSeat_F3_32">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>32</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="19">
+            <widget class="QLabel" name="labelSeat_F3_gap2">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="23">
+            <widget class="QLabel" name="labelSeat_F3_52">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>52</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="15">
+            <widget class="QLabel" name="labelSeat_F3_58">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>58</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="18">
+            <widget class="QLabel" name="labelSeat_F3_38">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>38</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="16">
+            <widget class="QLabel" name="labelSeat_F3_57">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>57</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="17">
+            <widget class="QLabel" name="labelSeat_F3_56">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>56</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="24">
+            <widget class="QLabel" name="labelSeat_F3_50">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>50</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="24">
+            <widget class="QLabel" name="labelSeat_F3_51">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>51</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="20" rowspan="2" colspan="5">
+            <widget class="QLabel" name="labelSeat_F3_books4">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/books.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="21">
+            <widget class="QLabel" name="labelSeat_F3_47">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>47</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="22">
+            <widget class="QLabel" name="labelSeat_F3_48">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>48</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="11">
+            <widget class="QLabel" name="labelSeat_F3_gap3">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="11">
+            <widget class="QLabel" name="labelSeat_F3_gap10">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="12">
+            <widget class="QLabel" name="labelSeat_F3_27">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>27</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="15">
+            <widget class="QLabel" name="labelSeat_F3_gap6">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="21">
+            <widget class="QLabel" name="labelSeat_F3_54">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>54</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="22">
+            <widget class="QLabel" name="labelSeat_F3_53">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>53</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="12" rowspan="3" colspan="8">
+            <widget class="QLabel" name="labelSeat_F3_books3">
+             <property name="minimumSize">
+              <size>
+               <width>240</width>
+               <height>46</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/books.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="7" rowspan="2" colspan="4">
+            <widget class="QLabel" name="labelSeat_F3_stairs">
+             <property name="minimumSize">
+              <size>
+               <width>90</width>
+               <height>46</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/stairsup.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLabel" name="labelSeat_F3_3">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>3</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLabel" name="labelSeat_F3_4">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>4</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QLabel" name="labelSeat_F3_6">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>6</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="4">
+            <widget class="QLabel" name="labelSeat_F3_9">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>9</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="24">
+            <widget class="QLabel" name="labelSeat_F3_45">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>45</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="7">
+            <widget class="QLabel" name="labelSeat_F3_18">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>18</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="labelSeat_F3_2">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>2</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLabel" name="labelSeat_F3_gap11">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QLabel" name="labelSeat_F3_5">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>5</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="4">
+            <widget class="QLabel" name="labelSeat_F3_8">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>8</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="6">
+            <widget class="QLabel" name="labelSeat_F3_11">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>11</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="7">
+            <widget class="QLabel" name="labelSeat_F3_15">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>15</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="16">
+            <widget class="QLabel" name="labelSeat_F3_35">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>35</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="9">
+            <widget class="QLabel" name="labelSeat_F3_22">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>22</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="24">
+            <widget class="QLabel" name="labelSeat_F3_46">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>46</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="9">
+            <widget class="QLabel" name="labelSeat_F3_19">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>19</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1" rowspan="3" colspan="5">
+            <widget class="QLabel" name="labelSeat_F3_books1">
+             <property name="minimumSize">
+              <size>
+               <width>120</width>
+               <height>46</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/books.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="1" rowspan="2" colspan="5">
+            <widget class="QLabel" name="labelSeat_F3_WC">
+             <property name="minimumSize">
+              <size>
+               <width>150</width>
+               <height>69</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/WC.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="7" rowspan="2" colspan="4">
+            <widget class="QLabel" name="labelSeat_F3_books2">
+             <property name="minimumSize">
+              <size>
+               <width>150</width>
+               <height>69</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/books.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="labelSeat_F3_1">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>1</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="20">
+            <widget class="QLabel" name="labelSeat_F3_39">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>23</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/available.png);</string>
+             </property>
+             <property name="text">
+              <string>39</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="21" rowspan="2" colspan="3">
+            <widget class="QLabel" name="labelSeat_F3_books5">
+             <property name="minimumSize">
+              <size>
+               <width>10</width>
+               <height>10</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 16pt &quot;Meiryo UI&quot;;
+image: url(:/map/resources/books.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="2">
+     <widget class="QWidget" name="widget_3rd_Status" native="true">
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="1" column="0">
+        <widget class="QLCDNumber" name="lcdNumber_F3_available">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(112, 173, 71);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>60</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLCDNumber" name="lcdNumber_F3_appointed">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(237, 125, 49);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLCDNumber" name="lcdNumber_F3_occupied">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLCDNumber" name="lcdNumber_F3_saved">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(68, 114, 196);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLCDNumber" name="lcdNumber_F3_banned">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(175, 171, 171);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="5">
+        <widget class="QLabel" name="label_13">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 85, 0);
+font: 28pt &quot;华文新魏&quot;;</string>
+         </property>
+         <property name="text">
+          <string>三楼</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QWidget" name="widget_4th_Status" native="true">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="1" column="0">
+        <widget class="QLCDNumber" name="lcdNumber_F4_available">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(112, 173, 71);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="value" stdset="0">
+          <double>67.000000000000000</double>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>67</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLCDNumber" name="lcdNumber_F4_appointed">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(237, 125, 49);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLCDNumber" name="lcdNumber_F4_occupied">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLCDNumber" name="lcdNumber_F4_saved">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(68, 114, 196);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLCDNumber" name="lcdNumber_F4_banned">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(175, 171, 171);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="5">
+        <widget class="QLabel" name="label_12">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 85, 0);
+font: 28pt &quot;华文新魏&quot;;</string>
+         </property>
+         <property name="text">
+          <string>四楼</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="3" column="1" colspan="2">
+     <widget class="QWidget" name="widget_Sun_Status" native="true">
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0" colspan="5">
+        <widget class="QLabel" name="label_14">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 85, 0);
+font: 28pt &quot;华文新魏&quot;;</string>
+         </property>
+         <property name="text">
+          <string>阳光房</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLCDNumber" name="lcdNumber_Sun_available">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(112, 173, 71);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>32</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLCDNumber" name="lcdNumber_Sun_appointed">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(237, 125, 49);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLCDNumber" name="lcdNumber_Sun_occupied">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLCDNumber" name="lcdNumber_Sun_saved">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(68, 114, 196);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLCDNumber" name="lcdNumber_Sun_banned">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(175, 171, 171);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="smallDecimalPoint">
+          <bool>false</bool>
+         </property>
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Filled</enum>
+         </property>
+         <property name="intValue" stdset="0">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="seatmap.qrc"/>
+ </resources>
+ <connections/>
+</ui>

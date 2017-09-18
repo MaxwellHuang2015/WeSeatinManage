@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/map">
+        <file>resources/appointed.png</file>
+        <file>resources/available.png</file>
+        <file>resources/banned.png</file>
+        <file>resources/occupied.png</file>
+        <file>resources/saved.png</file>
+        <file>resources/WC.png</file>
+        <file>resources/coach.png</file>
+        <file>resources/stairsdown.png</file>
+        <file>resources/stairsup.png</file>
+        <file>resources/service.png</file>
+        <file>resources/books.png</file>
+        <file>resources/computer.png</file>
+        <file>resources/door.png</file>
+    </qresource>
+</RCC>
